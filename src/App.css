@@ -1,0 +1,73 @@
+/* Custom styles for the app container */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  #root {
+    padding: 2rem;
+  }
+}
+
+/* Improved text styling */
+p, div, span {
+  line-height: 1.8;
+  word-spacing: 0.05em;
+  letter-spacing: 0.02em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+/* Override for specific button classes */
+.border-blue-500 {
+  color: #3b82f6 !important;
+  background-color: transparent;
+}
+
+/* Feedback screen score circle */
+.score-circle {
+  position: relative;
+  width: 90px;
+  height: 90px;
+}
+
+@media (min-width: 640px) {
+  .score-circle {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.score-circle-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* Option buttons should have dark text */
+.option-button {
+  color: #4a5568 !important;
+  background-color: white !important;
+}
+
+/* Responsive font sizes */
+@media (max-width: 639px) {
+  h1 {
+    font-size: 1.5rem !important;
+  }
+  h2, h3 {
+    font-size: 1.25rem !important;
+  }
+  p, button, div {
+    font-size: 0.875rem !important;
+  }
+} 
