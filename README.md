@@ -75,3 +75,4 @@ npm start  # or yarn start
 
 
 project demo url = https://projects.harinarayankoiri.com.np/sentence-construction/
+API URL=https://projects.harinarayankoiri.com.np/sentence-construction/assents/data.json
