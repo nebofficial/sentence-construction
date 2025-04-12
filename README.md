@@ -64,7 +64,7 @@ Welcome to the **Sentence Construction Game** — a fun and interactive way to i
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/nebofficial/sentence-construction.git
 cd sentence-construction
 
 # Install dependencies
